@@ -20,6 +20,8 @@ nav {
 ul {
     padding-left: 0;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 ul > li {
@@ -41,8 +43,9 @@ text-decoration: none;
 
 .card{
 border: solid 1px #999;
+padding: 10px;
 border-radius: 8px;
-width: 250px;
+flex-basis: 250px;
 }
 
 input[type="text"] {
@@ -92,3 +95,8 @@ footer {
     margin-top: 20px;
 }
 
+.card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
