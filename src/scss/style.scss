@@ -9,7 +9,7 @@
     --text-color: rgb(68, 68, 68);
 
     --first-color:rgb(110, 87, 224);
-    ----frist-color-hover: rgb(40,91,212);
+    ----first-color-hover: rgb(40,91,212);
 
     --section-color: rgb(170,142,18);
 }
@@ -46,4 +46,8 @@ body {
         padding-block: 6em;
         min-height: 700px;
     }
+}
+
+i {
+    font-size: 16px;
 }
